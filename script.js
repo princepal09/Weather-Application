@@ -48,7 +48,7 @@ inputName.value = ""
 
 
 const getWeatherData = async () => {
-  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=59f5c8a3724d4b9661c862b585647cc8
+  const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY_HERE;
  `;
   try {
     const response = await fetch(weatherUrl);
